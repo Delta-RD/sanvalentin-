@@ -2,20 +2,16 @@ const heart = document.getElementById("heart");
 const nameTag = document.getElementById("name");
 const signature = document.getElementById("signature");
 
-// Mostrar texto dentro del corazón
+
 function showName() {
   nameTag.style.opacity = 1;
   signature.style.opacity = 1;
 }
 
-// Evento al hacer clic en el corazón
 heart.addEventListener("click", () => {
   showName();
 });
 
-// ----------------------
-// 🎉 GENERADOR DE CONFETI
-// ----------------------
 
 const canvas = document.getElementById("confetti");
 const ctx = canvas.getContext("2d");

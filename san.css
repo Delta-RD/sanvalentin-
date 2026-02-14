@@ -97,12 +97,12 @@ h1 {
     height: auto;
 }
 
-/* Ocultar el video de música */
+
 #bgmusic {
   display: none;
 }
 
-/* El canvas del confeti */
+
 #confetti {
   position: fixed;
   top: 0;
